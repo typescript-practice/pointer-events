@@ -12,25 +12,20 @@
 ## Intro
 Extend the mobile-side event touchstart / touchmove / touchend logic to the desktop.
 
-
-- 解决的问题是?
-- 为什么不是pointer事件?
-- 为什么不是drag事件?
-
 ## Example
 
 ```js
 import PointerEvents from 'tp-pointer-events';
 
-function pointerDown(e){ 
+function pointerDown(e){
   // do something
 }
 
-function pointerMove(e){ 
+function pointerMove(e){
   // do something
 }
 
-function pointerUp(e){ 
+function pointerUp(e){
   // do something
 }
 
@@ -41,7 +36,7 @@ const pointerEvents = new PointerEvents(this._el, pointerDown, pointerMove, poin
 
 [![NPM Badge](https://nodei.co/npm/tp-pointer-events.png?downloads=true)](https://www.npmjs.com/package/tp-pointer-events)
 
- 
+
 ## API
 
 
